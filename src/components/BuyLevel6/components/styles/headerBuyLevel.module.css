@@ -1,0 +1,32 @@
+.containerHeader {
+	height: 90px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 16px 24px;
+	background: linear-gradient(90deg, #a90f90 55%, #0c1a51 100%);
+	border-radius: 6px 6px 0px 0px;
+}
+
+.title {
+	font-size: 26px;
+	color: #fff;
+}
+.containerPrice {
+	border-left: 1px solid #fff;
+	color: #fff;
+	padding-left: 8px;
+}
+.price {
+	font-size: 28px;
+	font-weight: 600;
+}
+.price small {
+	font-size: 20px;
+	font-weight: 300;
+}
+.previusPrice {
+	font-size: 14px;
+	text-decoration: line-through;
+}

@@ -1,0 +1,62 @@
+.carousel {
+	overflow: hidden;
+	display: flex;
+	width: 100%;
+	max-width: 1600px;
+	margin: 0 auto;
+	flex-direction: column;
+	justify-content: center;
+	position: relative;
+	background-color: var(--bg-color-page);
+}
+.carousel:hover {
+	.buttonLeft,
+	.buttonRigth {
+		opacity: 1;
+	}
+}
+.inner {
+	white-space: nowrap;
+	transition: transform 0.3s;
+}
+.containerItem {
+	position: relative;
+}
+.buttonLeft,
+.buttonRigth {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 32px;
+	height: 64px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: none;
+	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.12);
+	opacity: 0;
+}
+.buttonRigth {
+	right: 0;
+	border-top-left-radius: 50px;
+	border-end-start-radius: 50px;
+	padding-left: 10px;
+}
+.buttonLeft {
+	left: 0;
+	border-end-end-radius: 50px;
+	border-top-right-radius: 50px;
+	padding-right: 10px;
+}
+
+.buttonRigth img,
+.buttonLeft img {
+	height: 15px;
+	width: 15px;
+}
+.buttonLeft img {
+	transform: rotate(-90deg);
+}
+.buttonRigth img {
+	transform: rotate(90deg);
+}

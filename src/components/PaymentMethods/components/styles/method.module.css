@@ -1,0 +1,22 @@
+.containerMethod {
+	padding: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 15px;
+}
+
+.containerInfo {
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+}
+
+.title {
+	color: #000;
+	font-size: 1.05em;
+	font-weight: 100;
+}
+.titleLink {
+	font-size: 0.8em;
+}

@@ -1,0 +1,27 @@
+:root {
+	--bg-color-navbar: #fff159;
+	--bg-color-page: #ebebeb;
+	--link-color: #3483fa;
+	--max-width: 1200px;
+	--green: #00a650;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Proxima Nova, -apple-system, Roboto, Arial, sans-serif,
+		sans-serif;
+}
+body {
+	background-color: var(--bg-color-page);
+}
+
+a {
+	text-decoration: none;
+	color: var(--link-color);
+}
+
+.slick-disabled {
+	opacity: 0 !important;
+	cursor: default;
+}

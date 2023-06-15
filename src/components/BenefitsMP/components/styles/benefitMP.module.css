@@ -1,0 +1,51 @@
+.container {
+	height: 250px;
+	width: 384px;
+	border-radius: 6px;
+	position: relative;
+}
+
+.img {
+	height: 100%;
+	width: 100%;
+	border-radius: 6px;
+}
+
+.containerDescription {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 112px;
+	padding: 16px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	gap: 10px;
+}
+
+.descriptionImage {
+	height: 80px;
+	width: 80px;
+	border-radius: 6px;
+}
+
+.description {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	flex-direction: column;
+	gap: 5px;
+	color: #fff;
+}
+.description p {
+	font-size: 18px;
+}
+.description p:first-of-type {
+	font-size: 22px;
+}
+
+.description span {
+	font-size: 12px;
+}

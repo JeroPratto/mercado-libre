@@ -1,0 +1,17 @@
+.containerTitleAndLink {
+	width: var(--max-width);
+	margin: 0 auto;
+	display: flex;
+	margin-bottom: 22px;
+	align-items: flex-end;
+}
+.title {
+	font-size: 26px;
+	font-weight: 300;
+	color: #666;
+}
+.link {
+	font-size: 16px;
+	margin-bottom: 3px;
+	margin-left: 16px;
+}
