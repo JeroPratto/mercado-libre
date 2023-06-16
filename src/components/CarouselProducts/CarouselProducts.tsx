@@ -9,8 +9,8 @@ export type CarouselProductsProps = {
 const CarouselProducts: React.FC<CarouselProductsProps> = ({ productList }) => {
 	return (
 		<Carousel slides={5}>
-			{productList.map((product) => (
-				<Product product={product} />
+			{productList.map((product, index) => (
+				<Product key={`${index}-${product.urlImage}`} product={product} />
 			))}
 		</Carousel>
 	)

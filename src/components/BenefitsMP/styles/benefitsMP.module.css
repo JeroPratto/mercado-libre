@@ -1,12 +1,10 @@
 .container {
-	/* height: 400px; */
 	width: 100%;
 	background-color: var(--bg-color-page);
 	padding: 40px 0;
 }
 
 .containerBenefits {
-	/* height: 400px; */
 	width: var(--max-width);
 	display: flex;
 	justify-content: space-between;

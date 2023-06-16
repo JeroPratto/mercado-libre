@@ -1,1 +1,1 @@
-export { default as BestShop } from './BestShop';
+export { default as BestShop } from './BestShop'

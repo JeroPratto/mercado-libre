@@ -20,8 +20,8 @@ const Shop: React.FC<ShopProps> = ({ shop }) => {
 			<div className={styles.containerTitleAndProducts}>
 				<p className={styles.title}>{shop.title}</p>
 				<div className={styles.containerProducts}>
-					{shop.products.map((urlImg) => (
-						<div className={styles.product}>
+					{shop.products.map((urlImg, index) => (
+						<div key={`${index}-${urlImg}`} className={styles.product}>
 							<img src={urlImg} alt=' ' />
 						</div>
 					))}

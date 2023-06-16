@@ -11,8 +11,8 @@ const PaymentMethods: React.FC<PaymentMethodsProps> = () => {
 	return (
 		<div className={styles.container}>
 			<div className={styles.containerPaymentMethods}>
-				{paymentMethodsMock.map((method) => (
-					<Method {...method} />
+				{paymentMethodsMock.map((method, index) => (
+					<Method key={`${index}-${method.iconUrl}`} {...method} />
 				))}
 				<a className={styles.containerViewMore}>
 					<img src={viewMoreIcon} alt='view more' />

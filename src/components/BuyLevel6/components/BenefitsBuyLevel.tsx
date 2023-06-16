@@ -13,8 +13,11 @@ const BenefitsBuyLevel: React.FC<BenefitsBuyLevelProps> = ({ benefits }) => {
 		<div className={styles.description}>
 			<p className={styles.titleDescription}>{benefits.titleDescription}</p>
 			<div className={styles.benefits}>
-				{benefits.benefits.map((benefit) => (
-					<div className={styles.containerBefenit}>
+				{benefits.benefits.map((benefit, index) => (
+					<div
+						key={`${index}-${benefit.src}`}
+						className={styles.containerBefenit}
+					>
 						<img
 							src={benefit.src}
 							alt={benefit.alt}

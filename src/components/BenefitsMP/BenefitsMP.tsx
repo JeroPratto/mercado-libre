@@ -16,8 +16,9 @@ const BenefitsMP: React.FC<BenefitsMPProps> = () => {
 				urlLink='#'
 			/>
 			<div className={styles.containerBenefits}>
-				{benefitsMock.map((benefit) => (
+				{benefitsMock.map((benefit, index) => (
 					<BenefitMP
+						key={`${index}-${benefit.urlImgBackground}`}
 						bgColor={benefit.bgColor}
 						alt={benefit.alt}
 						urlIcon={benefit.urlIcon}

@@ -15,8 +15,9 @@ const Discover: React.FC<DiscoverProps> = ({ offers, title = 'Descubrí' }) => {
 			<div className={styles.containerOffersAndTitle}>
 				<TitleSection title={title} />
 				<div className={styles.containerOffers}>
-					{offers.map((offer) => (
+					{offers.map((offer, index) => (
 						<DiscoverOffer
+							key={`${index}-${offer.urlImage}`}
 							titleOffer={offer.titleOffer}
 							typeOffer={offer.typeOffer}
 							urlImage={offer.urlImage}

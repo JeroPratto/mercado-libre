@@ -1,1 +1,1 @@
-export { default as BenefitsMP } from './BenefitsMP';
+export { default as BenefitsMP } from './BenefitsMP'
