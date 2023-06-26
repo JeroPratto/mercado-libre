@@ -6,7 +6,7 @@ This project is a clone of the [Mercado Libre website](https://www.mercadolibre.
 
 ```bash
 # Clone this project
-git clone https://github.com/JeroPratto/mercado-libre
+git clone https://github.com/JeroPratto/mercado-libre.git
 # Install
 npm install
 # Run
