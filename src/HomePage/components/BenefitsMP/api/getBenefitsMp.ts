@@ -1,26 +1,26 @@
 const getBenefitsMPMock = () => {
 	const benefitsMPMock = [
 		{
-			urlImgBackground: '/assets/BenefitsMP/multicontent.jpg',
+			urlImgBackground: '/BenefitsMP/multicontent.jpg',
 			alt: 'Disney+ y Star+',
-			urlIcon: '/assets/BenefitsMP/comboplus-square-multicontent.jpg',
+			urlIcon: '/BenefitsMP/comboplus-square-multicontent.jpg',
 			description:
 				'<p style="font-weight:bold">Sin cargo con el nivel 6</p> <p>Disney+ y Star+</p>',
 			bgColor:
 				'linear-gradient(0deg, rgb(8, 19, 48) 0%, rgba(8, 19, 48, 0) 100%);',
 		},
 		{
-			urlImgBackground: '/assets/BenefitsMP/HBOMAX.jpg',
+			urlImgBackground: '/BenefitsMP/HBOMAX.jpg',
 			alt: 'hbo max',
-			urlIcon: '/assets/BenefitsMP/hbomax-icon.png',
+			urlIcon: '/BenefitsMP/hbomax-icon.png',
 			description: `<span>7 DÍAS GRATIS</span> <p style="font-weight:bold">Hasta 30% OFF</p> <p>HBO Max</p>`,
 			bgColor:
 				'linear-gradient(0deg, rgb(60, 3, 78) 0%, rgba(60, 3, 78, 0) 100%)',
 		},
 		{
-			urlImgBackground: '/assets/BenefitsMP/paramount.jpg',
+			urlImgBackground: '/BenefitsMP/paramount.jpg',
 			alt: 'paramount+',
-			urlIcon: '/assets/BenefitsMP/paramount-icon.png',
+			urlIcon: '/BenefitsMP/paramount-icon.png',
 			description:
 				'<span>7 DÍAS GRATIS</span> <p style="font-weight:bold">Hasta 30% OFF</p> <p>Paramount+</p>',
 			bgColor:
