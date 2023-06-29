@@ -1,11 +1,11 @@
 const getImagesMock = () => {
 	const images = [
-		'src/HomePage/components/CarouselHero/images/carousel-1.webp',
-		'src/HomePage/components/CarouselHero/images/carousel-2.webp',
-		'src/HomePage/components/CarouselHero/images/carousel-3.webp',
-		'src/HomePage/components/CarouselHero/images/carousel-4.webp',
-		'src/HomePage/components/CarouselHero/images/carousel-5.webp',
-		'src/HomePage/components/CarouselHero/images/carousel-6.webp',
+		'/images/CarouselHero/carousel-1.webp',
+		'/images/CarouselHero/carousel-2.webp',
+		'/images/CarouselHero/carousel-3.webp',
+		'/images/CarouselHero/carousel-4.webp',
+		'/images/CarouselHero/carousel-5.webp',
+		'/images/CarouselHero/carousel-6.webp',
 	]
 	return images
 }

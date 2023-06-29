@@ -7,29 +7,25 @@ export interface paymentMethod {
 const getPaymentMethodsMock = () => {
 	const paymentMethods: paymentMethod[] = [
 		{
-			iconUrl:
-				'src/HomePage/components/PaymentMethods/images/credit-card-icon.svg',
+			iconUrl: '/images/PaymentMethods/credit-card-icon.svg',
 			title: 'Tarjeta de crédito',
 			linkUrl: '#',
 			titleLink: 'Ver promociones bancarias',
 		},
 		{
-			iconUrl:
-				'src/HomePage/components/PaymentMethods/images/debit-card-icon.svg',
+			iconUrl: '/images/PaymentMethods/debit-card-icon.svg',
 			title: 'Tarjeta de débito',
 			linkUrl: '#',
 			titleLink: 'Ver más',
 		},
 		{
-			iconUrl:
-				'src/HomePage/components/PaymentMethods/images/mercado-credits-icon.svg',
+			iconUrl: '/images/PaymentMethods/mercado-credits-icon.svg',
 			title: 'Cuotas sin tarjeta',
 			linkUrl: '#',
 			titleLink: 'Conocé Mercado Crédito',
 		},
 		{
-			iconUrl:
-				'src/HomePage/components/PaymentMethods/images/efectivo-icon.svg',
+			iconUrl: '/images/PaymentMethods/efectivo-icon.svg',
 			title: 'Efectivo',
 			linkUrl: '#',
 			titleLink: 'Ver más',

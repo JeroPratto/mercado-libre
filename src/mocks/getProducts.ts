@@ -13,7 +13,7 @@ const getProductsMock = (): ProductInterface[] => {
 		{
 			description: 'Mens Casual Premium Slim Fit T-Shirts',
 			price: 22.3,
-			urlImage: 'assets/imagesMock/imagen_2.jpg',
+			urlImage: '/images/Products/imagen_2.jpg',
 			shipment: 'Mismo precio en 9 cuotas',
 			previusPrice: null,
 			discount: null,
